@@ -87,3 +87,28 @@ body {
 .large-button {
     width: 47.2%;
 }
+
+
+@media (max-width: 1350px) {
+    .calculator {
+        min-width: 500px;
+        min-height: 540px;
+    }
+}
+
+@media (max-width: 590px) {
+    .calculator {
+        min-width: 290px;
+        min-height: 470px;
+    }
+
+    .keypad-button {
+        width: 52px;
+        height: 50px;
+        padding: 0;
+    }
+
+    .large-button {
+        width: 114px;
+    }
+}
